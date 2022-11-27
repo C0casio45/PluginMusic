@@ -1,0 +1,44 @@
+@import '../app.variable.scss';
+
+.landing{
+    .landingImg{
+        margin:0;
+
+        img{
+            width: 100vw;
+            height: 100vh;
+        }
+    }
+    .landingText{
+        position: absolute;
+        color: $white;
+        font-family: $font;
+        font-size: 2em;
+        font-weight: 300;
+        margin-top: 5%;
+        text-align: center;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-shadow: $dark 2px 2px 7px;
+        
+        &:before{
+            content: ' ';
+            display: block;
+            width: 100%;
+            height: 10px;
+            background: $white;
+            opacity: 1;
+        }
+
+        h2{
+            font-size: 1em;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+
+        .button{
+            margin-top: 2rem;
+        }
+    }
+}
