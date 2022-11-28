@@ -1,1 +1,32 @@
 @import '../app.variable.scss';
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.productCard{
+    max-width: 300px;
+    margin: 30px 0;
+    padding: 30px 65px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: $white;
+        color: $dark;
+        box-shadow: 10px 10px $primary;
+    }
+    
+    h3{
+        color:$primary;
+    }
+
+    figure{
+        height: 300px;
+        margin: 0;
+    }
+
+}
