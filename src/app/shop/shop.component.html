@@ -1,4 +1,8 @@
-<div class="imgPlaceholder"></div>
+<div class="imgPlaceholder">
+    <figure>
+        <img class="accessibilityCheckImg" src="https://picsum.photos/1903/300" alt="image header" data-num="1">
+    </figure>
+</div>
 <section>
     <div *ngFor="let product of productList" class="productCard">
         <figure><img src="{{product.image}}" alt="{{product.name}} thumbnail"></figure>
