@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/shared/style.scss';
+
+:root{
+    --dark : #{$dark};
+    --white : #{$white};
+}
+
+.imgPlaceholder{
+    height:300px;
+    background-color:$white25;
+
+    figure{
+        padding: 0;
+        margin: 0;
+    }
+}
